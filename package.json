@@ -1,31 +1,25 @@
 {
-  "name": "payu-sdk",
-  "version": "1.1.0",
-  "description": "Payu's Node API",
-  "main": "lib/index.js",
+  "name": "payu-sdk-node-index-fixed",
+  "version": "1.0.0",
+  "description": "Payu's Node API with fixed index",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/payu-india/payu-sdk-node"
+    "url": "git+https://github.com/AkshaykumarLilani/payu-sdk-node-index-fixed.git"
   },
   "author": "",
-   "keywords": [
-    "payu",
-    "payu-sdk",
-    "payu-checkout",
-    "payu-checkout-server",
-    "payments",
-    "node",
-    "nodejs",
-    "payu-node",
-    "payu-node-sdk"
-  ],
-  "files": [
-    "lib"
-  ],
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkshaykumarLilani/payu-sdk-node-index-fixed/issues"
+  },
+  "homepage": "https://github.com/AkshaykumarLilani/payu-sdk-node-index-fixed#readme",
   "devDependencies": {
     "jest": "^25.4.0"
   }

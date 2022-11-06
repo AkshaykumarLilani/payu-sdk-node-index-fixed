@@ -4,20 +4,19 @@
 
 Install package:
 
-    $ npm install payu-sdk
+    $ npm install payu-sdk-node-index-fixed
 
   OR
 
-    $ yarn add payu-sdk
+    $ yarn add payu-sdk-node-index-fixed
 
 ## Usage
-
 
 Next, you need to bootstrap using key and salt by following:
 key & salt can be found in your payu dashboard
 
 ```js
-const payu = require('payu-sdk')({
+const payu = require('payu-sdk-node-index-fixed')({
   key: '<payu_key>',
   salt:  '<payu_salt>', // should be on server side only
 });
@@ -38,6 +37,7 @@ const hash = payu.hasher.generateHash({
 ```
 
 # Verify reverse hash received from payu after checkout
+
 ```js
 const reverseHash = '<payu_hash>' // hash received after payment from payu
 const txnStatus = '<payu_txn_status>' // status received after payment from payu
